@@ -1,0 +1,19 @@
+.global {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.global > .flexImg {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.global > .flexImg > .annex {
+  width: 40%;
+}
+
+img {
+  max-width: 100%;
+  padding: 1rem;
+}
